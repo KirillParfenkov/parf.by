@@ -1,0 +1,101 @@
+@font-face {
+	font-family: Bierahinia;
+	src: url(Bierahinia.ttf);
+}
+
+@font-face {
+	font-family: Sreda;
+	src: url(TTM2bot0.otf);
+}
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Condensed&subset=latin,cyrillic,cyrillic-ext);
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 1px;
+	min-height: 100%;
+}
+
+html{
+  height: 1px;
+  min-height: 100%;
+}
+
+.page {
+	height: 100%;
+}
+
+.page.main{
+	font-size: 25px;
+	background-image: url("background4.jpg");
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.page.main .menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 100%;
+
+}
+
+.page.main .menu .item{
+	height: 110px;
+	background: rgba(6, 79, 73, 0.68);
+	padding-right: 0px;
+}
+
+.page.main .menu .item .item-content {
+	padding: 20px;
+	padding-top: 37px;
+	font-size: 32px
+	float: right;
+}
+
+.page.main .menu .item .strip {
+	background-color: rgba(61, 32, 7, 0.77);
+	height: 100%;
+	width: 25px;
+	float: left;
+	margin-right: 20px;
+}
+
+.page.main .menu .wrapper:hover {
+	padding-left: 0px;
+	cursor: pointer;
+}
+
+.page.main .menu .wrapper {
+	padding-left: 20px;
+	-webkit-transition: padding-left 0.5s; /* Safari 3.1 to 6.0 */
+	transition: padding-left 0.3s;
+}
+
+
+.page .left-side {
+	width: 40%;
+	float: left;
+	height: 100%;
+	font-size: 32px;
+}
+
+.page .left-side .content {
+	display: flex;
+	text-align: center;
+	
+	color: rgb(216, 216, 216);
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+}
+
+.page .right-side {
+	color: #D8D8D8;
+	width: 60%;
+	float: right;
+	height: 100%;
+}
