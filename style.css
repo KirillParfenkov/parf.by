@@ -99,3 +99,13 @@ html{
 	float: right;
 	height: 100%;
 }
+
+@media (min-height: 750px) {
+	.page.main .menu .item{
+		height: 140px;
+	}
+
+	.page.main .menu .item .item-content {
+		padding-top: 52px;
+	}
+}
