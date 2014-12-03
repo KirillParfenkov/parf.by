@@ -187,11 +187,15 @@ html{
 
 /* Detail Page */
 .page.ditails {
-	background-color: #0D0D0D;
+	background-image: url("background9.jpg");
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
 }
 
 .page .devider {
 	position: absolute;
+
 	background-color: rgba(61, 32, 7, 0.98);
 	height: 50px;
 	width: 100%;
