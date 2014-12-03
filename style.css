@@ -246,4 +246,7 @@ html{
 	border-right: 25px solid rgba(61, 32, 7, 0.95);
 }
 
+.page.ditails .case .content .title {
+	font-size: 20px;
+}
 /* Detail Page End*/
